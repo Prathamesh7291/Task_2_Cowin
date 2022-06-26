@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    font-size: 15px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 50px 75px 15fr 7fr 80px;
+    width: 100%;
+    height: 120vh;
+}
+#main_panel,#footer{
+    background-color: #265C5C;
+}
+#hero_container{
+    display: flex;
+    background-color: #F6F6F6;
+    justify-content: center;
+    align-items: center;
+}
+#nav,#links{
+    background-color: #367C7E;
+}
+.hero_box{
+    display: flex;
+    border: 2px solid inherit;
+    border-radius: 10px;
+    height: 85%;
+    width: 45%;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 40px 0px 40px 0px;
+}
