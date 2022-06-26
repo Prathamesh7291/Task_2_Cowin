@@ -29,6 +29,7 @@ body{
     width: 48%;
     box-shadow: 2px 2px 2px 2px gray;
     margin: 40px 0px 40px 0px;
+    overflow: hidden;
 }
 #links{
     display: flex;
@@ -39,7 +40,7 @@ body{
 #footer{
     display: flex;
 }
-a{
+li a{
     text-decoration: none;
     color: white;
 }
@@ -51,4 +52,37 @@ a{
     padding-top: 8%;
     margin: 10px;
     background-image: linear-gradient(to top, #3C797D,#8ED0CF);
+}
+.info{
+    text-align: start;
+    border:1px solid black;
+    color: black;
+    margin: 10px 10px 10px 0px;
+    line-height: 1.4em;
+    overflow: visible;
+}
+.digi_locker{
+    background-color: #E3F0F0;
+    border: 1px solid black;
+}
+input[type=number]{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    height: 10%;
+}
+.otp{
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #265C5C;
+    height: 9%;
+    padding-top: 3%;
+    margin-top: 7%;
+}
+.otp a{
+    text-decoration: none;
+    color: white;
 }
