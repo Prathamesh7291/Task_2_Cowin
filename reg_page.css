@@ -22,11 +22,11 @@ body{
     background-color: #367C7E;
 }
 .hero_box{
-    display: block;
+    display: flex;
     border: 2px solid inherit;
     border-radius: 10px;
-    height: 85%;
-    width: 45%;
+    height: 82%;
+    width: 48%;
     box-shadow: 2px 2px 2px 2px gray;
     margin: 40px 0px 40px 0px;
 }
@@ -42,4 +42,13 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+.family{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 8%;
+    margin: 10px;
+    background-image: linear-gradient(to top, #3C797D,#8ED0CF);
 }
