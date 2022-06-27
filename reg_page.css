@@ -2,6 +2,7 @@ body{
     background-color: white;
     font-size: 15px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     display: grid;
@@ -25,9 +26,9 @@ body{
     display: flex;
     border: 2px solid inherit;
     border-radius: 10px;
-    height: 82%;
-    width: 48%;
-    box-shadow: 2px 2px 2px 2px gray;
+    height: 83%;
+    width: 49%;
+    box-shadow: 2px 2px 12px 2px rgb(183, 179, 179);
     margin: 40px 0px 40px 0px;
     overflow: hidden;
 }
@@ -55,34 +56,72 @@ li a{
 }
 .info{
     text-align: start;
-    border:1px solid black;
+    border:1px solid inherit;
     color: black;
-    margin: 10px 10px 10px 0px;
-    line-height: 1.4em;
+    margin: 10px 15px 10px 10px;
+    line-height: 1.2em;
     overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#small_1{
+    font-size: 0.9em;
+    word-spacing: 2px;
+    color: rgb(157, 153, 153);
 }
 .digi_locker{
+    text-align: center;
     background-color: #E3F0F0;
     border: 1px solid black;
+    border-radius: 2px;
+    border-style: dashed;
+    padding: 9px;
+    margin-top: 7px;
+}
+.digi_locker a{
+    text-decoration: none;
+    color: black;
 }
 input[type=number]{
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid rgb(131, 131, 131);
     border-radius: 5px;
-    width: 80%;
+    width: 97%;
     height: 10%;
 }
 .otp{
     text-transform: uppercase;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid inherit;
     border-radius: 5px;
     background-color: #265C5C;
     height: 9%;
+    width: 99%;
     padding-top: 3%;
     margin-top: 7%;
 }
 .otp a{
     text-decoration: none;
     color: white;
+}
+#small_2{
+    font-size: 0.8em;
+}
+#small_2 a{
+    text-decoration: none;
+    color: #3C797D;
+}
+#special_txt{
+    text-align: center;
+    font-size: 0.9em;
+    word-spacing: 2px;
+}
+#meri_pahchan{
+width: 35%;}
+.meri_pahchan{
+    text-align: center;
+}
+.flex{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
