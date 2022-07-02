@@ -72,6 +72,7 @@ li a{
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
+    width: 38%;
     padding-top: 8%;
     margin: 10px;
     background-image: linear-gradient(to top, #3C797D,#8ED0CF);
