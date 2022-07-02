@@ -111,14 +111,15 @@ input[type=number]{
     font-size: 1.2em;
 }
 .otp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
-    text-align: center;
     border: 2px solid inherit;
     border-radius: 5px;
     background-color: #265C5C;
-    height: 9%;
+    height: 11%;
     width: 99%;
-    padding-top: 3%;
     margin-top: 7%;
 }
 .otp a{
@@ -194,14 +195,28 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em;
 }
 .item2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#nha{
+    grid-column: 3/4;
     display: flex;
-    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+#undp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    font-size: 0.8em;
+    padding-top: 2.7em;
 }
 .sub_fitems{
     color: #FFFFFF;
